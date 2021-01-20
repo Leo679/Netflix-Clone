@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="/style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+
+    <title>Netflix Clone - Souls</title>
+
+    <!--Popup-->
+    <script language=javascript type="text/javascript">
+        function criarPopup(){
+            newpopupWindow = window.open ('https://www.themoviedb.org/movie/508442-soul?language=pt-BR', 'pagina', "width=1000 height=1000");  
+        newWindow.document.write ("Este é um novo popup <br/>");
+        }
+        </script>
+
+</head>
+<body>
+   <header>
+       <div class="container">
+           <h2 class="logo">NETFLIX</h2>
+           <nav>
+               <a href="#">Inicio</a>
+               <a href="#">Séries</a>
+               <a href="#">Filmes</a>
+               <a href="#">Documentários</a>
+           </nav>
+       </div>
+   </header>
+
+   <main>
+       <div class="filme-principal">
+           <div class="container">
+               <h3 class="titulo">SOUL</h3>
+               <p class="descricao">Joe Gardner é um professor de música de ensino fundamental desanimado por não conseguir alcançar seu sonho de tocar no lendário clube de jazz The Blue Note, em Nova York. Quando um acidente o transporta para fora do seu corpo, fazendo com que ele exista em outra realidade na forma de sua alma, ele se vê forçado a embarcar em uma aventura ao lado da alma de uma criança que ainda está aprendendo sobre si, para aprender o que é necessário para retomar sua vida.</p>
+               <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play" ></i>
+                        <a class="links" href="https://www.youtube.com/watch?v=xOsLIiBStEs&ab_channel=Pixar" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        <a class="links" href="javascript:criarPopup()">MAIS INFORMAÇÕES</a>
+                    </button>
+                </div>
+           </div>
+       </div>
+   </main>
+
+   <div class="carrosel-filmes">
+       <div class="owl-carousel owl-theme">
+           <div class="item">
+               
+                <a href="/paginas/soul.html"><img class="box-filme" src="\img/mini1.jpg" alt="Filme Soul" srcset=""></a>
+           </div>
+           <div class="item">
+            <img class="box-filme" src="/img/mini2.jpg" alt="Lupin" srcset="">
+       </div>
+       <div class="item">
+        <img class="box-filme" src="/img/mini3.jpg" alt="Good Doctor" srcset="">
+   </div>
+   <div class="item">
+    <img class="box-filme" src="/img/mini4.jpg" alt="Vikings" srcset="">
+</div>
+<div class="item">
+    <img class="box-filme" src="/img/mini5.jpg" alt="Cobra Kai" srcset="">
+</div>
+<div class="item">
+    <img class="box-filme" src="/img/mini6.jpg" alt="Game of Thrones" srcset="">
+</div>
+<div class="item">
+    <img class="box-filme" src="/img/mini7.jpg" alt="Alice" srcset="">
+</div>
+<div class="item">
+    <img class="box-filme" src="/img/mini8.jpg" alt="Jujuksen" srcset="">
+</div>
+<div class="item">
+    <img class="box-filme" src="/img/mini9.jpg" alt="Ataque dos Titãs" srcset="">
+</div>
+<div class="item">
+    <a href="/index.html"><img class="box-filme" src="/img/mini10.jpg" alt="The Mandalorian" srcset=""></a>
+</div>
+       </div>
+   </div>
+
+   <script src="https://kit.fontawesome.com/f98541a67c.js"></script>
+   <script src="/js/owl/jquery.min.js"></script>
+   <script src="/js/owl/owl.carousel.min.js"></script>
+   <script src="/js/owl/main.js"></script>
+</body>
+</html>
